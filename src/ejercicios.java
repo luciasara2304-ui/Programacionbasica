@@ -4,6 +4,9 @@ public class ejercicios {
     public static void main(String[] args){
         Scanner scanner = new Scanner (System.in);
 
+        //EJERCICIO 1
+        System.out.println("Hola mundo");
+
         // EJERCICIO 2
         System.out.println("Digite su nombre");
         String nombre = scanner.nextLine();
