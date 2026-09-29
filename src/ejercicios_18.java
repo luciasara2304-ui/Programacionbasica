@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class ejercicios2{
+public class ejercicios_18 {
     public static void main(String[] args){
+        // EJERCICIO 18
 
-        // EJERCICIO 7
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Digite su primera nota: ");
         double nota1 = scanner.nextDouble();
         System.out.println("Digite su segunda nota: ");
@@ -18,6 +18,14 @@ public class ejercicios2{
 
         double calcularpromedio = (nota1*0.15)+(nota2*0.20)+(nota3*0.15)+(nota4*0.30)+(nota5*0.20);
 
-        System.out.println("Su promedio es: "+calcularpromedio);
+        if(calcularpromedio < 2.0){
+            System.out.println("Su promedio es: "+calcularpromedio+" por tanto NO PODRÁ HABILITAR");
+        } else if (calcularpromedio > 3) {
+            System.out.println("Su promedio es: "+calcularpromedio+ " ha APROBADO la asignatura");
+            if(calcularpromedio > 4.5){
+                System.out.println("¡FELICITACIONES POR SU ESFUERZO!");
+            }
+        }
+
     }
 }
