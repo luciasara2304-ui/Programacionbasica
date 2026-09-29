@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 9 y 10">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios7.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 11 y 12">
+      <change afterPath="$PROJECT_DIR$/src/ejercicios8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicios9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3JVEcjHz3RA17xXXeIQ29Dt5JjA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +56,9 @@
     "Application.ejercicios4.executor": "Run",
     "Application.ejercicios5.executor": "Run",
     "Application.ejercicios6.executor": "Run",
+    "Application.ejercicios7.executor": "Run",
+    "Application.ejercicios8.executor": "Run",
+    "Application.ejercicios9.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -90,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejercicio 8" />
     <MESSAGE value="Ejercicios 9 y 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 9 y 10" />
+    <MESSAGE value="Ejercicios 11 y 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 11 y 12" />
   </component>
 </project>
