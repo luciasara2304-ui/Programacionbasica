@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 13 y 14">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 15,16 y 17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +48,7 @@
   "keyToString": {
     "Application.ejercicios.executor": "Run",
     "Application.ejercicios10.executor": "Run",
+    "Application.ejercicios11.executor": "Run",
     "Application.ejercicios2.executor": "Run",
     "Application.ejercicios3.executor": "Run",
     "Application.ejercicios4.executor": "Run",
@@ -99,6 +96,7 @@
     <MESSAGE value="Ejercicios 9 y 10" />
     <MESSAGE value="Ejercicios 11 y 12" />
     <MESSAGE value="Ejercicios 13 y 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 13 y 14" />
+    <MESSAGE value="Ejercicios 15,16 y 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 15,16 y 17" />
   </component>
 </project>
