@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 23">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios_24.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 24">
+      <change afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_1_2_3_4_5_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_9.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Prueba.executor": "Run",
     "Application.ejercicio_22.executor": "Run",
     "Application.ejercicios.executor": "Run",
     "Application.ejercicios10.executor": "Run",
@@ -65,6 +72,7 @@
     "Application.ejercicios_20.executor": "Run",
     "Application.ejercicios_23.executor": "Run",
     "Application.ejercicios_24.executor": "Run",
+    "Application.prueba.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -112,6 +120,7 @@
     <MESSAGE value="Ejercicios 21" />
     <MESSAGE value="Ejercicios 22" />
     <MESSAGE value="Ejercicios 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 23" />
+    <MESSAGE value="Ejercicios 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 24" />
   </component>
 </project>
