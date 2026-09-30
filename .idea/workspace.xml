@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 24">
-      <change afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_1_2_3_4_5_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_15_16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios_20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +126,7 @@
     <MESSAGE value="Ejercicios 22" />
     <MESSAGE value="Ejercicios 23" />
     <MESSAGE value="Ejercicios 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 24" />
+    <MESSAGE value="Ejercicios 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 1" />
   </component>
 </project>

@@ -13,7 +13,16 @@ public class prueba {
         ejercicios.ejercicio_8();
         ejercicios.ejercicio_9();
         ejercicios.ejercicio_10();
-
+        ejercicios.ejercicio_11();
+        ejercicios.ejercicio_12();
+        ejercicios.ejercicio_13();
+        ejercicios.ejercicio_14();
+        ejercicios.ejercicio_15();
+        ejercicios.ejercicio_16();
+        ejercicios.ejercicio_17();
+        ejercicios.ejercicio_18();
+        ejercicios.ejercicio_19();
+        ejercicios.ejercicio_20();
 
     }
 }
