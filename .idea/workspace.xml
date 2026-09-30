@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 20">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios_21.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 21">
+      <change afterPath="$PROJECT_DIR$/src/ejercicio_22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ejercicio_22.executor": "Run",
     "Application.ejercicios.executor": "Run",
     "Application.ejercicios10.executor": "Run",
     "Application.ejercicios11.executor": "Run",
@@ -107,6 +108,7 @@
     <MESSAGE value="Ejercicios 15,16 y 17" />
     <MESSAGE value="Ejercicios 18 y 19" />
     <MESSAGE value="Ejercicios 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 20" />
+    <MESSAGE value="Ejercicios 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 21" />
   </component>
 </project>
