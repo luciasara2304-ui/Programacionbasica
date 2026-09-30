@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 21">
-      <change afterPath="$PROJECT_DIR$/src/ejercicio_22.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 22">
+      <change afterPath="$PROJECT_DIR$/src/ejercicios_23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "Application.ejercicios_18.executor": "Run",
     "Application.ejercicios_19.executor": "Run",
     "Application.ejercicios_20.executor": "Run",
+    "Application.ejercicios_23.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -109,6 +110,7 @@
     <MESSAGE value="Ejercicios 18 y 19" />
     <MESSAGE value="Ejercicios 20" />
     <MESSAGE value="Ejercicios 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 21" />
+    <MESSAGE value="Ejercicios 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 22" />
   </component>
 </project>
