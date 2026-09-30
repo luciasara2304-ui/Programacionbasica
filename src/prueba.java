@@ -23,6 +23,10 @@ public class prueba {
         ejercicios.ejercicio_18();
         ejercicios.ejercicio_19();
         ejercicios.ejercicio_20();
+        ejercicios.ejercicio_21();
+        ejercicios.ejercicio_22();
+        ejercicios.ejercicio_23();
+        ejercicios.ejercicio_24();
 
     }
 }

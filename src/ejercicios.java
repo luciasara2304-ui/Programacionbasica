@@ -303,6 +303,113 @@ public class ejercicios {
         }
     }
 
+    public static void ejercicio_21(){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Ingrese el número a pasar a texto: ");
+        int n=scanner.nextInt();
+
+        switch (n){
+            case 0:
+                System.out.println("CERO");
+                break;
+            case 1:
+                System.out.println("UNO");
+                break;
+            case 2:
+                System.out.println("DOS");
+                break;
+            case 3:
+                System.out.println("TRES");
+                break;
+            case 4:
+                System.out.println("CUATRO");
+                break;
+            case 5:
+                System.out.println("CINCO");
+                break;
+            case 6:
+                System.out.println("SEIS");
+                break;
+            case 7:
+                System.out.println("SIETE");
+                break;
+            case 8:
+                System.out.println("OCHO");
+                break;
+            case 9:
+                System.out.println("NUEVE");
+                break;
+            case 10:
+                System.out.println("DIEZ");
+                break;
+        }
+    }
+
+    public static void ejercicio_22(){
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.println("Digite el número a analizar: ");
+        int n=scanner.nextInt();
+
+        if(n>0 && n<100000){
+            int digitos = String.valueOf(n).length();
+            System.out.println("El número "+n+" tiene "+digitos+" digitos");
+        }
+        else{
+            System.out.println("Este número no está dentro del rango");
+        }
+    }
+
+    public static void ejercicio_23(){
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.println("Digite el primer número: ");
+        double num1=scanner.nextDouble();
+        System.out.println("Digite el segundo número: ");
+        double num2=scanner.nextDouble();
+        System.out.println("Digite el tercer número: ");
+        double num3=scanner.nextDouble();
+
+
+        if(num1>num2 && num2>num3){
+            System.out.println("Los números están disminuyendo");
+        }
+        else if(num1<num2 && num2<num3){
+            System.out.println("Los números están aumentando");
+        } else {
+            System.out.println("Los números no aumentan ni disminuyen");
+        }
+    }
+
+    public static void ejercicio_24(){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Ingrese el número del día de la semana que desea: ");
+        int n=scanner.nextInt();
+
+        switch (n){
+            case 1:
+                System.out.println("El día es: Lunes");
+                break;
+            case 2:
+                System.out.println("El día es: Martes");
+                break;
+            case 3:
+                System.out.println("El día es: Miércoles");
+                break;
+            case 4:
+                System.out.println("El día es: Jueves");
+                break;
+            case 5:
+                System.out.println("El día es: Viernes");
+                break;
+            case 6:
+                System.out.println("El día es: Sábado");
+                break;
+            case 7:
+                System.out.println("El día es: Domingo");
+                break;
+        }
+    }
 }
 
 
