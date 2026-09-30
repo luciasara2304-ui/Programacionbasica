@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 15,16 y 17">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios_18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios_19.java" afterDir="false" />
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 18 y 19">
+      <change afterPath="$PROJECT_DIR$/src/ejercicios_20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_1_2_3_4_5_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_15_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios_14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +61,7 @@
     "Application.ejercicios8.executor": "Run",
     "Application.ejercicios9.executor": "Run",
     "Application.ejercicios_18.executor": "Run",
+    "Application.ejercicios_19.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -116,6 +104,7 @@
     <MESSAGE value="Ejercicios 11 y 12" />
     <MESSAGE value="Ejercicios 13 y 14" />
     <MESSAGE value="Ejercicios 15,16 y 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 15,16 y 17" />
+    <MESSAGE value="Ejercicios 18 y 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 18 y 19" />
   </component>
 </project>
