@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class ejercicios {
     public static void main(String[] args){}
+
+
     public static void ejercicio_1(){
         System.out.println("Hola mundo");
     }
@@ -409,6 +411,40 @@ public class ejercicios {
                 System.out.println("El día es: Domingo");
                 break;
         }
+    }
+
+    public static void ejercicio_25(){
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.println("Ingresa la frase que deseas invertir: ");
+        String frase = scanner.nextLine();
+
+        StringBuilder invertido = new StringBuilder();
+        for (int i = frase.length()-1; i >=0 ; i--) {
+            invertido.append(frase.charAt(i));
+        }
+
+        System.out.println("El texto invertido es: "+invertido);
+    }
+
+    public static void ejercicio_26(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite la frase a usar: ");
+        String frase = scanner.nextLine();
+
+        String resultado = "";
+
+        for (String palabra: frase.split(" ")){
+            if(palabra.isEmpty()){
+                System.out.println("Está vacía");
+            }
+            else {
+                resultado = resultado + Character.toUpperCase(palabra.charAt(0)) + palabra.substring(1)+" ";
+            }
+        }
+
+        System.out.println("La frase es: " + resultado.trim());
     }
 }
 

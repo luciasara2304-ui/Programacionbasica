@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 1">
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 3">
+      <change afterPath="$PROJECT_DIR$/src/ejercicios_borrar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_15_16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_18.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_19.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios_20.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +69,7 @@
     "Application.ejercicios_20.executor": "Run",
     "Application.ejercicios_23.executor": "Run",
     "Application.ejercicios_24.executor": "Run",
+    "Application.ejercicios_borrar.executor": "Run",
     "Application.prueba.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -127,6 +120,8 @@
     <MESSAGE value="Ejercicios 23" />
     <MESSAGE value="Ejercicios 24" />
     <MESSAGE value="Ejercicios 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 1" />
+    <MESSAGE value="Ejercicios 2" />
+    <MESSAGE value="Ejercicios 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 3" />
   </component>
 </project>
