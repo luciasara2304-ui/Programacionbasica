@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 5">
+    <list default="true" id="01203e02-fea3-41fd-b237-b9af70666b39" name="Changes" comment="Ejercicios 6">
       <change afterPath="$PROJECT_DIR$/src/ejercicios_borrar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +123,7 @@
     <MESSAGE value="Ejercicios 3" />
     <MESSAGE value="Ejercicios 4" />
     <MESSAGE value="Ejercicios 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 5" />
+    <MESSAGE value="Ejercicios 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 6" />
   </component>
 </project>

@@ -574,7 +574,7 @@ public class ejercicios {
     public static void ejercicio_35(){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite el decimal a convertir a binario: ");
+        System.out.println("Digite el número a convertir a binario: ");
         int decimal = scanner.nextInt();
 
         int num = decimal;
@@ -588,7 +588,42 @@ public class ejercicios {
             num = num/2;
         }
 
-        System.out.println("Su decimal "+decimal+" en binario es "+binario);
+        System.out.println("Su número "+decimal+" en binario es "+binario);
+    }
+
+    public static void ejercicio_36(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingresa el número binario ");
+        int binario = scanner.nextInt();
+
+        int num = binario;
+        int decimal = 0;
+        int base = 1;
+
+        while(num>0){
+            int ultimoDigito = num%10;
+            decimal = decimal +(ultimoDigito*base);
+            base = base*2;
+            num = num/10;
+        }
+
+        System.out.println("El número binario "+binario+" a decimal es "+decimal);
+    }
+
+    public static void ejercicio_37(){
+        for (int i = 1; i <= 10; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+
+            System.out.println(); // Salto de línea
+        }
+    }
+
+    public static void ejercicio_38(){
+
     }
 }
 
