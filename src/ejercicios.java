@@ -536,7 +536,60 @@ public class ejercicios {
         }
     }
 
+    public static void ejercicio_31(){
+        for (int i = 1; i <=10 ; i++) {
+            System.out.println(i);
+        }
+    }
 
+    public static void ejercicio_32(){
+        for (int i = 1; i < 10; i++) {
+            if(i%2 != 0){
+                System.out.println(i);
+            }
+        }
+    }
+
+    public static void ejercicio_33(){
+        for (int i = 1; i < 10; i++) {
+            if(i%2 == 0){
+                System.out.println(i);
+            }
+        }
+    }
+
+    public static void ejercicio_34(){
+        Scanner scanner = new Scanner(System.in);
+
+        int num;
+        do{
+            System.out.println("Digite un número entero positivo");
+            num = scanner.nextInt();
+
+        } while(num<=0);
+
+        System.out.println("Usted dijito el número "+num);
+    }
+
+    public static void ejercicio_35(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite el decimal a convertir a binario: ");
+        int decimal = scanner.nextInt();
+
+        int num = decimal;
+        long binario = 0;
+        long posicion = 1;
+
+        while (num>0){
+            int residuo = num%2;
+            binario = binario + (residuo*posicion);
+            posicion = posicion*10;
+            num = num/2;
+        }
+
+        System.out.println("Su decimal "+decimal+" en binario es "+binario);
+    }
 }
 
 

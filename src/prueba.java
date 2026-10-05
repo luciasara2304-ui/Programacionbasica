@@ -33,5 +33,10 @@ public class prueba {
         ejercicios.ejercicio_28();
         ejercicios.ejercicio_29();
         ejercicios.ejercicio_30();
+        ejercicios.ejercicio_31();
+        ejercicios.ejercicio_32();
+        ejercicios.ejercicio_33();
+        ejercicios.ejercicio_34();
+        ejercicios.ejercicio_35();
     }
 }
