@@ -446,6 +446,97 @@ public class ejercicios {
 
         System.out.println("La frase es: " + resultado.trim());
     }
+
+    public static void ejercicio_27(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingresa el texto: ");
+        String texto = scanner.nextLine();
+
+        String[] palabras = texto.trim().split(" ");
+
+        if(palabras.length >= 2){
+            String penultima = palabras[palabras.length-2];
+            System.out.println("La penúltima palabra es: "+penultima);
+        }
+        else{
+            System.out.println("El texto debe tener al menos dos palabras");
+        }
+    }
+
+    public static void ejercicio_28(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el primer texto (texto principal): ");
+        String texto_1 = scanner.nextLine();
+        System.out.println("Ingrese el segundo texto (texto a buscar): ");
+        String texto_2 = scanner.nextLine();
+
+        if(texto_1.contains(texto_2)){
+            System.out.println("El primer texto SI contiene el segundo");
+        }
+        else{
+            System.out.println("El primer texto NO contiene el segundo");
+        }
+    }
+
+    public static void ejercicio_29(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingresa la palabra a verificar si es o no palindromo");
+        String palabra = scanner.nextLine();
+
+        boolean esPalindromo = palabra.contentEquals(new StringBuilder(palabra).reverse());
+
+        if(esPalindromo){
+            System.out.println("La palabra "+palabra+" SI es palindromo");
+        }
+        else{
+            System.out.println("La palabra "+palabra+" NO es palindromo");
+        }
+    }
+
+    public static void ejercicio_30(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingresa la cantidad de vértices que tiene la figura: ");
+        int vertices = scanner.nextInt();
+
+        if(vertices < 3){
+            System.out.println("Un poligono debe tener almenos 3 vértices");
+        }
+        else{
+            double[]x = new double[vertices];
+            double[]y = new double[vertices];
+
+            System.out.println("Ingresa las cordenadas en orden alrededor de la figura");
+            for (int i = 0; i < vertices; i++) {
+                System.out.println("Vértice "+(i+1)+" en X");
+                x[i] = scanner.nextDouble();
+                System.out.println("Vértice "+(i+1)+" en Y");
+                y[i] = scanner.nextDouble();
+            }
+
+            double suma1 = 0;
+            double suma2 = 0;
+
+            for (int i = 0; i < vertices; i++) {
+                int siguiente = i+1;
+                if(siguiente == vertices){
+                    siguiente = 0;
+                }
+
+                suma1 = suma1 +(x[i] * y[siguiente]);
+                suma2 = suma2 + (y[i] * x[siguiente]);
+            }
+
+            double area = Math.abs(suma1-suma2) / 2.0;
+
+            System.out.println("El área total del poligono es igual a: "+area);
+        }
+    }
+
+
 }
 
 

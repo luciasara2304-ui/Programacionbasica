@@ -29,7 +29,9 @@ public class prueba {
         ejercicios.ejercicio_24();
         ejercicios.ejercicio_25();
         ejercicios.ejercicio_26();
-
-
+        ejercicios.ejercicio_27();
+        ejercicios.ejercicio_28();
+        ejercicios.ejercicio_29();
+        ejercicios.ejercicio_30();
     }
 }
