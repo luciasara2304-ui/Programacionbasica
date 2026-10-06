@@ -618,12 +618,43 @@ public class ejercicios {
                 System.out.print(j);
             }
 
-            System.out.println(); // Salto de línea
+            System.out.println();
         }
     }
 
     public static void ejercicio_38(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el número de filas");
+        int filas = scanner.nextInt();
 
+        for (int i = 1; i <= filas; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("@");
+            }
+
+            System.out.println();
+        }
+    }
+
+    public static void ejercicio_39(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa el número de filas: ");
+        int filas = scanner.nextInt();
+
+        for (int i = filas; i >= 1; i--) {
+
+            for (int j = 0; j < filas - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 1; k <= i; k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
     }
 }
 

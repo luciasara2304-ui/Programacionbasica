@@ -40,5 +40,7 @@ public class prueba {
         ejercicios.ejercicio_35();
         ejercicios.ejercicio_36();
         ejercicios.ejercicio_37();
+        ejercicios.ejercicio_38();
+        ejercicios.ejercicio_39();
     }
 }
