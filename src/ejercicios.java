@@ -656,6 +656,101 @@ public class ejercicios {
             System.out.println();
         }
     }
+
+    public static void ejercicio_40(){
+        Scanner scanner = new Scanner(System.in);
+
+        // Valores que me da el problema
+        double Capacidad_carga = 18000;
+        double dolar = 4000; //tasa que utilizo para el cambio a dolares
+
+        //contadores
+        double Peso_total_acumulado = 0;
+        int Total_bultos = 0;
+        double Peso_mas_pesado = 0;
+        double Peso_mas_liviano = 0;
+        double Total_ingreso_pesos = 0;
+
+        System.out.println("<<SISTEMA DE RECEPCIÓN BOING 707>>");
+
+        boolean continuar = true;
+
+        while (continuar && Peso_total_acumulado < Capacidad_carga){
+
+            System.out.println("Ingrese el peso del bulto en kg (DIGITE 0 PARA TERMINAR): ");
+            double Peso_bulto = scanner.nextDouble();
+
+            if(Peso_bulto == 0){
+                continuar = false;
+            }
+            else if (Peso_bulto < 0) {
+                System.out.println("El peso del bulto no puede sel negativo");
+            }
+            else if (Peso_bulto > 500) {
+                System.out.println("ERROR, el bulto no puede exceder los 500kg");
+            }
+            else if (Peso_total_acumulado + Peso_bulto > Capacidad_carga) {
+                System.out.println("ERROR, con el peso de este bulto se excede la capacidad del avion");
+                System.out.println("Quedan "+(Capacidad_carga - Peso_total_acumulado)+" kg restantes");
+            }
+            else{
+                double costo_bulto = 0;
+
+                if (Peso_bulto >= 0 && Peso_bulto <= 25){
+                    costo_bulto = 0;
+                }
+                else if (Peso_bulto >= 26 && Peso_bulto <= 300) {
+                    costo_bulto = Peso_bulto * 1500;
+                }
+                else if (Peso_bulto >= 301 && Peso_bulto <= 500) {
+                    costo_bulto = Peso_bulto * 2500;
+                }
+
+                //Acumulamos el peso y el ingreso total
+                Peso_total_acumulado += Peso_bulto;
+                Total_ingreso_pesos += costo_bulto;
+                Total_bultos ++;
+
+                //Hallamos el más pesadito y el más liviano
+                if(Total_bultos ==1){
+                    Peso_mas_pesado = Peso_bulto;
+                    Peso_mas_liviano = Peso_bulto;
+                }
+                else {
+                    if(Peso_bulto > Peso_mas_pesado){
+                        Peso_mas_pesado = Peso_bulto;
+                    }
+                    if (Peso_bulto < Peso_mas_liviano){
+                        Peso_mas_liviano = Peso_bulto;
+                    }
+                }
+
+                System.out.println("El bulto ha sido aceptado. Cobro $"+costo_bulto+" pesos");
+                System.out.println("Carga total acumulada "+Peso_total_acumulado+" / "+Capacidad_carga+" kg");
+                System.out.println();
+            }
+        }
+
+
+        System.out.println("<<RESUMEN DEL VUELO EVALUADO>>");
+
+        if (Total_bultos > 0){
+            double peso_promedio = Peso_total_acumulado/Total_bultos;
+            double total_ingreso_dolares = Total_ingreso_pesos / dolar;
+
+            System.out.println("Total de bultos ingresados: "+Total_bultos);
+            System.out.println("Bulto más pesado: "+Peso_mas_pesado+" kg");
+            System.out.println("Bulto más liviano: "+Peso_mas_liviano+" kg");
+            System.out.println("Peso promedio por bulto: "+peso_promedio+" kg");
+            System.out.println("Ingreso total en pesos: $"+Total_ingreso_pesos+" COP");
+
+            System.out.println("Tasa de cambio usada: 1 USD --> $"+dolar+" USD");
+            System.out.println("Ingreso total en dolares: $"+total_ingreso_dolares+" USD");
+        }
+        else {
+            System.out.println("No se ingresaron bultos para este vuelo");
+        }
+    }
 }
 
 
